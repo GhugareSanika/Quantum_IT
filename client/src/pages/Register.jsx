@@ -143,7 +143,7 @@ const Register = () => {
           progress: undefined,
           theme: "colored",
         });
-        setTimeout(() => navigate("/dashboard"), 2000);
+        setTimeout(() => navigate("/dashboard"), 1000);
       }
     } catch (err) {
       toast.error(err.message || "An unexpected error occurred", {
